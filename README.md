@@ -14,7 +14,8 @@ The emergence of Large Audio-Language Models (LALMs) has advanced Speech Emotion
 
 ## Overview
 
-![image-20250919172137488](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250919172137488.png)
+<img width="2050" height="667" alt="image-20250919172137488" src="https://github.com/user-attachments/assets/1b586f9a-46ee-4afd-82dd-7f1fe2499345" />
+
 
 ​                 **Fig. 1**. An overview of our PL-Distill framework, which includes Projector-level Distillation (PDist) and Logits-level Distillation (LDist).
 
@@ -24,7 +25,8 @@ The emergence of Large Audio-Language Models (LALMs) has advanced Speech Emotion
 
 ## Evaluation
 
-![image-20250919172657384](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250919172657384.png)
+<img width="1942" height="574" alt="image-20250919172657384" src="https://github.com/user-attachments/assets/6a566657-9e91-426d-9eef-dbe2ba90e949" />
+
 
 **Table 1**. Comparison of main performance metrics for various models on the IEMOCAP, RAVDESS, and SAVEE datasets. Results for pretrained Models are cited from the Emobox benchmark. The baseline for comparison refers to the Forward KL method. SOTA results among Pretrained Models are highlighted in **bold**, and the overall best results across all models are highlighted in **red**.
 
