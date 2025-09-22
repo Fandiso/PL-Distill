@@ -62,7 +62,7 @@ pip install sklearn
 
 2.Download the Datasets from [IEMOCAP- Release](https://sail.usc.edu/iemocap/iemocap_release.htm), [RAVDESS Emotional speech audio](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio), [Surrey Audio-Visual Expressed Emotion (SAVEE)](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)  and place them in the path:(/PL-Distill/Emobox/data/Downloads)
 
-3.run the code to process data
+3.Run the code to process data
 
 ```
 python process_iemocap.py
