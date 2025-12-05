@@ -257,7 +257,7 @@ def map_emotion(e):
 def build_argparser():
 
     parser = argparse.ArgumentParser(description="Evaluate Qwen2-Audio-0.5B model")
-    # 如果你偶尔也想通过命令行切换数据/模型路径，可以把下面几项也暴露出来
+
     parser.add_argument("--prediction_path", type=str, required=True, help="预测结果与真实结果保存路径")
     parser.add_argument("--scores_path", type=str, required=True, help="分数保存路径")
     parser.add_argument("--lora_path", type=str, required=True, help="待测检查点加载路径")
