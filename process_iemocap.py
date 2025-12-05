@@ -8,9 +8,9 @@ label_map = {'hap':'Happy', 'sad':'Sad', 'ang':'Angry', 'neu':'Neutral'}  # you 
 
 for i in range (folds):
     train_data_path = f"/PL-Distill/EmoBox/data/iemocap/fold_{i+1}/iemocap_train_fold_{i+1}.jsonl" # original train file path
-    train_output_path = f"/PL-Distill/EmoBox/data/iemocap_train_fold_{i+1}.jsonl"  #  your train file path
+    train_output_path = f"/PL-Distill/EmoBox/data/iemocap_train_fold_{i+1}.jsonl"  # train file path
     test_data_path = f"/PL-Distill/EmoBox/data/iemocap/fold_{i+1}/iemocap_test_fold_{i+1}.jsonl" #original test file path
-    test_output_path = f"/PL-Distill/EmoBox/data/iemocap_test_fold_{i+1}.jsonl"  #  your test file pat
+    test_output_path = f"/PL-Distill/EmoBox/data/iemocap_test_fold_{i+1}.jsonl"  # test file pat
     # valid_data_path = f""
     # valid_output_path = f""
     data_list.append(train_data_path)
